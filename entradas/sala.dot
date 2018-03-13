@@ -1,0 +1,17 @@
+strict digraph sala {
+  a -> c;
+  c -> b;
+  b -> a;
+  c -> d;
+  d -> d;
+  d -> f;
+  d -> g;
+  f -> e;
+  e -> f;
+  b -> e;
+  f -> g;
+  g -> h;
+  h -> j;
+  j -> i;
+  i -> g;
+}
